@@ -1,0 +1,15 @@
+{
+  "name": "amazon-flipkart-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests/ --timeout 10000"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0",
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0"
+  }
+}
